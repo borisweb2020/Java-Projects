@@ -10,3 +10,4 @@ java Main      # Run the code
 
 ### 1_Intro
 - `Arithmetic.java` - receives two integers via CLI, checks for the input data for integers and execute arithmetic operations
+- `Factorial.java` - calculates the factorial and the number of the Fibonacci sequence using a recursive algorithm and a loop method
