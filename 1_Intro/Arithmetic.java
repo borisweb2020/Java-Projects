@@ -7,18 +7,26 @@ public class Arithmetic{
 		System.out.print("Enter two decimal numbers, separated by a whitespace: ");
 
 		try{
-			String input = in.nextLine();
-			String[] numbers = input.split(" ");
-
-			if(numbers.length == 2){
-				int firstNumber = Integer.valueOf(numbers[0]);
-				int secondNumber = Integer.valueOf(numbers[1]);
-				System.out.println("Your numbers are " + firstNumber + " and " + secondNumber);
-			} else {
-				System.out.println("Enter two decimal numbers, separated by a whitespace");
-			}
-
-		} catch(NumberFormatException e){
+				int a = in.nextInt();
+				int b = in.nextInt();
+				int sum = a + b;
+				int diff = a -b;
+				int product = a * b;
+				System.out.println("The sum is\s" + sum);
+				System.out.println("The difference is\s" + diff);
+				System.out.println("The product is\s" + product);
+				if(b == 0){
+					System.out.println("Division by zero");
+				} else if(b > a){
+					float aFloat = a;
+					float bFloat = b;
+					float qoutientFloat = aFloat / bFloat;
+					System.out.println("The qoutient is\s" + qoutientFloat);
+				} else {
+					int qoutient = a / b;
+					System.out.println("The qoutient is\s" + qoutient);
+				}
+		} catch(InputMismatchException e){
 			System.out.println("Enter a correct integer");
 		} finally {
 			in.close();
