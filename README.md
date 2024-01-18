@@ -13,3 +13,6 @@ java Main      # Run the code
 - `Factorial.java` - calculates the factorial and the number of the Fibonacci sequence using a recursive algorithm and a loop method
 - `PrimeDivisor.java` - finds the largest prime divisor of any predetermined integer, by using division and the operation of taking a remainder of the division
 - `LinearSearch.java` - searches an index of an element in the array by using the algorithm of linear search
+
+### 2_File_Handling
+- `ReadArraysFromFile` - reads data from file in the form of integers or strings, stores them in an array, and outputs them to the console in the form of the resulting array.

@@ -1,0 +1,5 @@
+Array String
+55
+true
+******
+Some simple text
