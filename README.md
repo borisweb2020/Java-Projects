@@ -12,3 +12,4 @@ java Main      # Run the code
 - `Arithmetic.java` - receives two integers via CLI, checks for the input data for integers and execute arithmetic operations
 - `Factorial.java` - calculates the factorial and the number of the Fibonacci sequence using a recursive algorithm and a loop method
 - `PrimeDivisor.java` - finds the largest prime divisor of any predetermined integer, by using division and the operation of taking a remainder of the division
+- `LinearSearch.java` - searches an index of an element in the array by using the algorithm of linear search
