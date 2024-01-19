@@ -1,0 +1,4 @@
+File for sorting
+String
+Another String
+Тип Строка

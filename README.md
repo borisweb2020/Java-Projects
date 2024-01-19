@@ -15,4 +15,5 @@ java Main      # Run the code
 - `LinearSearch.java` - searches an index of an element in the array by using the algorithm of linear search
 
 ### 2_File_Handling
-- `ReadArraysFromFile` - reads data from file in the form of integers or strings, stores them in an array, and outputs them to the console in the form of the resulting array.
+- `ReadArraysFromFile.java` - reads data from file in the form of integers or strings, stores them in an array, and outputs them to the console in the form of the resulting array
+- `SortDataFromFile.java` - reads data from the file by lines and sorts them according to the data type and writes them to the corresponding output file

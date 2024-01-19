@@ -1,0 +1,10 @@
+File for sorting
+String
+1.2457E-10
+401
+1245.224
+Another String
+Тип Строка
+12458764
+5
+-25
